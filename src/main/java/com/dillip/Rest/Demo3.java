@@ -8,6 +8,7 @@ public class Demo3 {
 	
 	@GetMapping("/end")
 	public String Home() {
+		System.out.println("Hello");
 		return "Get back to Home";
 	}
 
